@@ -1,0 +1,19 @@
+/* St. Mary's International School (SMIS) WEB PORTAL
+ * Component-specific styles for the SMIS Portal
+ * Uses Tailwind CSS for utilities with custom component styles
+ */
+
+/* Custom animations */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Custom component overrides */
+/* Add any component-specific styles that can't be handled by Tailwind here */
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

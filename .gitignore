@@ -1,0 +1,77 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# Local environment configurations
+# These files often contain sensitive information or local machine overrides.
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# If you use a plain .env file for non-secret defaults, do NOT add it here.
+# Only .env files with sensitive data or local overrides (like .env.local) should be ignored.
+.env
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Consider adding a general *.log pattern if your application generates other log files
+# that are not covered by the specific patterns above.
+# *.log
+
+# Operating System generated files
+.DS_Store # macOS
+._* # macOS resource forks (often seen on external drives)
+Thumbs.db # Windows thumbnail cache
+ehthumbs.db # Windows thumbnail cache for protected content
+
+# IDE / Editor specific files
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, WebStorm, PyCharm, Rider, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio
+*.suo
+*.user # User-specific files
+*.userosscache # Roaming user-specific files
+*.sln.docstates # Solution state
+
+# NetBeans
+/nbproject/private/ # User-specific NetBeans project metadata
+/nbbuild/ # NetBeans build artifacts
+# /dist/ # Default output for NetBeans projects. If your project uses '/build' (as specified above)
+         # for its primary output, ensure this doesn't conflict or ignore if not using NetBeans.
+/nbdist/ # NetBeans distribution artifacts for J2SE projects
+.nb-gradle/ # NetBeans Gradle project files
+
+# Temporary and backup files
+*~ # Common backup file extension (e.g., by Emacs, Kate)
+*.bak # Backup files
+*.swp # Vim swap file
+*.swo # Vim persistent undo file
+*.tmp # Temporary files
+
+# plan files secured
+plan.txt
+plan.md
+item_codes.md
