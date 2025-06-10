@@ -17,13 +17,13 @@
 .env.development.local
 .env.test.local
 .env.production.local
-# If you use a plain .env file for non-secret defaults, do NOT add it here.
-# Only .env files with sensitive data or local overrides (like .env.local) should be ignored.
 .env
+
 # Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 # Consider adding a general *.log pattern if your application generates other log files
 # that are not covered by the specific patterns above.
 # *.log
